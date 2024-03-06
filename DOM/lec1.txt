@@ -1,0 +1,16 @@
+DOM (DOCUMENT OBJECT MODEL - document is a model/representaion of our HTML code) - Tree Like Structure (each box representing a node/object)
+- DOM is a way of accessing HTML code using JS.
+- Dynamic changes during runtime, when user accesses the website can only be done by JS.
+When a webpage is loaded, the browser automatically created a DOM.
+DOM tree starts with a window object - This containes everything.
+Window is a global object
+--------------------------------------------------------------------------------
+
+HTML code -> JS (converts into an object called 'document' - available in window object [present in JS])
+window.document - This will fetch us the entire HTML code.
+console.dir(window.document) - To view the properties
+
+console.log - To print something on the screen - we do not use this to print special objects
+console.dir - Prints properties or methods of special objects (for eg. document)
+Both these are parts of window object
+
