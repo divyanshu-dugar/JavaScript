@@ -49,6 +49,7 @@ console.log(allClasses);
 console.dir(allClasses);
 
 // Properties
+// ----------
 // tagName - Returns tag for element nodes
 // innerText - returns the text content fo the element and all it's children
 // inner HTML : returns the plain text or HTTML contents in the elemnt
@@ -62,4 +63,10 @@ console.log(firstEle.innerText);
 // - Comment Nodes
 // - Elements (we work with this during development)
 
+// FirstChild, LastChild, Children - used for navigation
+// Read about - text, comment and element
+console.log(document.querySelector("body").children);
 console.dir(document.querySelector("div").children);
+
+// innerText
+
